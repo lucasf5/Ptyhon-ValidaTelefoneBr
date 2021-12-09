@@ -18,7 +18,7 @@ class TelefonesBr:
 
     def formatarNumero(self, numero):
         if len(numero) == 11:
-            print(f'+55 {self.numero[0:2]} {self.numero[2]}-{self.numero[3:7]}-{self.numero[7:]}')
+            print(f'+55 ({self.numero[0:2]}) {self.numero[2]}-{self.numero[3:7]}-{self.numero[7:]}')
         elif len(numero) == 13:
             print(f'+{self.numero[:2]} {self.numero[2:4]} {self.numero[4]}-{self.numero[5:9]}-{self.numero[9:]}')
         elif len(numero) == 14:
